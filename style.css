@@ -35,7 +35,7 @@ body.light {
 }
 
 body.dark {
-  background: linear-gradient(to top right, rgb(61, 61, 80), rgb(3, 3, 177));
+  background: linear-gradient(to top right, rgb(10, 10, 14), rgb(3, 3, 177));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
