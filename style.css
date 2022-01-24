@@ -4,4 +4,49 @@
 #todo {
   border-radius: 20px;
   overflow: hidden;
+  background-color: white;
+}
+button {
+  outline: none;
+}
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+}
+
+body.light {
+  background: linear-gradient(to top right, cyan, rgb(0, 255, 76));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.dark {
+  background: linear-gradient(to top right, rgb(61, 61, 80), rgb(3, 3, 177));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h4 {
+  word-break: normal;
+  word-wrap: break-word;
+}
+
+#theme {
+  color: #ffd700;
 }
