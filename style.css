@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+#todo {
+  border-radius: 20px;
+  overflow: hidden;
+}
