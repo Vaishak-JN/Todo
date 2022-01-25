@@ -135,8 +135,10 @@ function taskDone(id) {
 // function to indicate pending tasks and clear all button
 function pendingTasks() {
     let pendingList = list.filter(ele => ele.done === false)
-    footer.classList.remove(pendingList.length ? "d-none" : "d-flex")
-    footer.classList.add(pendingList.length ? "d-flex" : "d-none")
+    // footer.classList.remove(pendingList.length ? "d-none" : "d-flex")
+    // footer.classList.add(pendingList.length ? "d-flex" : "d-none")
+    footer.classList.remove(list.length ? "d-none" : "d-flex")
+    footer.classList.add(list.length ? "d-flex" : "d-none")
     pending.innerHTML = `<h5 class=${themeMode ? "text-dark" : "text-light"}>Pending Tasks: <span class=${themeMode ? "text-danger" : "text-info"}>${pendingList.length}</span></h5>`
 }
 
